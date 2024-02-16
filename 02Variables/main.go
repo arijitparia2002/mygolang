@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const LoginToken string = "hdjkfkajfhnfashdadhfd" //public "first letter capital"
+
 func main() {
 	fmt.Println("Variables")
 	var username string = "Arijit"
@@ -31,5 +33,7 @@ func main() {
 	//no var style
 	numberofuser := 4000
 	fmt.Println(numberofuser)
+
+	fmt.Println(LoginToken)
 
 }
